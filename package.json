@@ -1,0 +1,28 @@
+{
+  "name": "input-interface",
+  "version": "1.0.0",
+  "description": "Template for a Directus interface with Vue 3 + Typescript + Sass",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "bundle": "nodemon -e ts,js,env,vue,json --ignore ./index.js --exec npx rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@vue/compiler-sfc": "^3.1.4",
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.9",
+    "postcss": "^8.3.5",
+    "rollup": "^2.52.7",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript": "^1.0.1",
+    "rollup-plugin-vue": "6.0.0",
+    "sass": "^1.35.1",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.5",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "dependencies": {}
+}

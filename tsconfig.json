@@ -1,0 +1,19 @@
+{
+"compilerOptions": {
+  "module": "system",
+  "moduleResolution": "node",
+  "noImplicitAny": true,
+  "removeComments": true,
+  "preserveConstEnums": true,
+  "outFile": "../../built/local/tsc.js",
+  "sourceMap": true,
+  "allowSyntheticDefaultImports": true,
+  "typeRoots": [ "./types", "./node_modules/@types"]
+},
+"include": [
+  "src/*.js",
+  "src/**/*.ts",
+  "src/*.vue",
+],
+"exclude": ["node_modules"]
+}
